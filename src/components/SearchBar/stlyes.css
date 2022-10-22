@@ -1,0 +1,25 @@
+.input__container {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.75rem;
+  height: 3rem;
+  outline: none;
+  margin: 0 2rem;
+}
+.search__icon {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  z-index: 2;
+  width: 30px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.input__field {
+  width: 100%;
+  outline: none;
+  font-size: 1.1rem;
+  font-family: "Rubik" sans-serif;
+}

@@ -1,0 +1,28 @@
+.container {
+  background-color: var(--lighterGray);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin: 3rem 2rem;
+}
+
+.wallets {
+  height: 25%;
+}
+
+.categories {
+  height: 55%;
+}
+
+.bell__icon {
+  width: 30px;
+  height: 30px;
+}

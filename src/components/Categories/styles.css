@@ -1,0 +1,40 @@
+.categories__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0rem 3.5rem;
+}
+
+.category__items {
+  height: 90%;
+  overflow: scroll;
+}
+.category__items::-webkit-scrollbar {
+  display: none;
+}
+
+.main__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  font-family: "Rubik", sans-serif;
+  margin: auto 0;
+}
+
+.icon__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 15px;
+  border: 1px var(--gray) dashed;
+}
+
+.plus__icon {
+  margin: auto 0;
+  scale: 1.5;
+  cursor: pointer;
+  color: var(--gray);
+}

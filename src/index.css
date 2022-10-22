@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: #f3f5fb;
+  --gray: #949ab1;
+  --lighterGray: #f9fafc;
+  --lightGray: #b4c5f8;
+  --blue: #088efa;
+  --lightBlue: #6da2df;
+  --action: #0867ec;
+  --text: #3e3d55;
+  --error: #eb1f2c;
+  --warning: #f2e90a;
+  --success: #19e015;
+}
+
+html {
+  background-color: var(--bgColor);
+}
